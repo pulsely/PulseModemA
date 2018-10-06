@@ -89,7 +89,7 @@ multimon - original program to decode radio transmissions
 
 **ax25beacon** - AX.25 beacon packet generator for APRS  
 [https://github.com/fsphil/ax25beacon](https://github.com/fsphil/ax25beacon)  
-Philip Heron phil@sanslogic.co.uk
+By Philip Heron
 
 **libfap** - ARPS parser  
 [http://www.pakettiradio.net/libfap/](http://www.pakettiradio.net/libfap/)  
@@ -118,7 +118,7 @@ Copyright (c) 2016 Ignacio Romero Zurbuchen iromero@dzen.cl
 By kishikawa katsumi, kishikawakatsumi@mac.com
 
 **RMessage** - crisp in-app notification/message banner built in ObjC\
-https://github.com/donileo/RMessage\
+https://github.com/donileo/RMessage
 Copyright (c) 2016 TouchSix, Inc. Adonis Peralta
 
 **Onboard** - easily create a beautiful and engaging onboarding experience\
