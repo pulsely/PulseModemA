@@ -1,0 +1,19 @@
+//
+//  PulseModemA-Prefix.pch
+//  PulseModemA
+//
+//  Created by Pulsely on 7/23/18.
+//  Copyright © 2018 Pulsely. All rights reserved.
+//
+
+
+
+
+#ifndef PulseModemA_Prefix_pch
+#define PulseModemA_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "ProjectDefaults.h"
+
+#endif /* PulseModemA_Prefix_pch */

@@ -1,0 +1,181 @@
+AP1WWX,TAPR T-238+ WX station
+AP1MAJ,Martyn M1MAJ DeLorme inReach Tracker
+AP4R,APRS4R software interface
+//APnnnD  Painter Engineering uSmartDigi D-Gate DSTAR Gateway
+//APnnnU  Painter Engineering uSmartDigi Digipeater
+APAG,AGATE
+APAGW,SV2AGW's AGWtracker
+APAL,Alinco DR-620/635 internal TNC digis. "Hachi" ,JF1AJE
+APAX,AFilterX.
+APAH,AHub
+APAND1,APRSdroid (pre-release) http://aprsdroid.org/
+APAM,Altus Metrum GPS trackers
+APAVT5,SainSonic AP510 which is a 1watt tracker
+APAW,AGWPE
+APBx,Beacons or Rabbit TCPIP micros?
+APB2MF,DL2MF - MF2APRS Radiosonde for balloons
+APBL,BigRedBee BeeLine
+APBLO,MOdel Rocketry K7RKT
+APBK,PY5BK Bravo Tracker in Brazil
+APBPQ,John G8BPQ Digipeater/IGate
+APBM,BrandMeister DMR Server for R3ABM
+APC,Cellular applications
+APCBB,VE7UDP Blackberry Applications
+APCDS0,Leon Lessing ZS6LMG's cell tracker
+APCLEY,EYTraker GPRS/GSM tracker by ZS6EY
+APCLWX,EYWeather GPRS/GSM WX station by ZS6EY
+APCLEZ,Telit EZ10 GSM application ZS6CEY
+APCSMS,for Cosmos (used for sending commands @USNA)
+APCWP8,John GM7HHB WinphoneAPRS
+APCY,Cybiko applications
+APD4,UP4DAR platform
+APDD,DV-RPTR Modem and Control Center Software
+APDF,Automatic DF units
+APDG,D-Star Gateways by G4KLX ircDDB
+APDH,WinDV (DUTCH*Star DV Node for Windows)
+//APDIGI,Used by PSAT2 to indicate the digi is ON
+APDIGI,digi ON for PSAT2 and QIKCOM-2
+APDI,DIXPRS - Bela HA5DI
+APDK,KI4LKF g2_ircddb Dstar gateway software
+APDNO,APRSduino by DO3SWW
+APDO,ON8JL Standalone DStar Node
+APDPRS,D-Star originated posits
+APDR,APRSdroid Android App http://aprsdroid.org/
+APDS,SP9UOB for dsDigi and ds-tracker
+APDT,APRStouch Tone (DTMF)
+APDTMF,digi off mode on QIKCOM2 and DTMF ON
+APDU,U2APRS by JA7UDE
+APDV,OE6PLD's SSTV with APRS status exchange
+APDW,DireWolf WB2OSZ
+APE,Telemetry devices
+APECAN,Pecan Pico APRS Balloon Tracker
+APERXQ,Experimental tracker by PE1RXQ
+APERS,Runner tracking by Jason KG7YKZ
+APE,Telemetry devices
+APF,Firenet
+APFG,Flood Gage (KP4DJT)
+APFI,for APRS.FI OH7LZB, Hessu
+APFPRS,for FreeDV by Jeroen PE1RXQ
+APG,Gates, etc
+APGO,for AA3NJ PDA application
+APGO,for AA3NJ PDA application
+APHK,for LA1BR tracker/digipeater
+APHAX,SM2APRS by PY2UEP
+APHT,HMTracker by IU0AAC
+APHW,for use in "HamWAN
+APICQ,for ICQ
+APIC,HA9MCQ's Pic IGate
+APIE,W7KMV's PiAPRS system
+APIN,PinPoint by AB0WV
+APJA,JavAPRS
+APJE,JeAPRS
+APJI,jAPRSIgate
+APJS,javAPRSSrvr
+APJY,KA2DDO Yet another APRS system
+APK0,Kenwood TH-D7's
+APK003,Kenwood TH-D72
+APK004,Kenwood TH-D74
+APK1,Kenwood D700's
+APK102,Kenwood D710
+APKRAM,RAMstuff.com - Mark. G7LEU
+APL,APLQRU Charlie - QRU Server
+APLM,WA0TQG transceiver controller
+//APM,MacAPRS,
+APMG,MiniGate - Alex AB0TJ
+APMI,SQ3PLX http://microsat.com.pl/
+APMT,LZ1PPL for tracker
+APN,Network nodes / digis
+APN3,Kantronics KPC-3 rom versions
+APN9,Kantronics KPC-9612 Roms
+APNA,WB6ZSU's APRServe
+APND,DIGI_NED
+APNIC,SQ5EKU http://sq5eku.blogspot.com/
+APNK01,Kenwood D700 (APK101) type
+APNK80,KAM version 8.0
+APNKMP,KAM+
+APNM,MJF TNC roms
+APNP,Paccom TNC roms
+APNT,SV2AGW's TNT tnc as a digi
+APNU,UIdigi
+APNX,TNC-X  (K6DBG)
+APNW,SQ3FYK.com WX/Digi and SQ3PLX http://microsat.com.pl/
+APO,APRSpoint
+APOFF,Used by PSAT and PSAT2 to indicate the digi is OFF
+APOLU,for OSCAR satellites for AMSAT-LU by LU9DO
+APOA,OpenAPRS - Greg Carter
+APOCSG,For N0AGI's APRS to POCSAG project
+APOT,Open Track
+APOD1w,Open Track with 1 wire WX
+APOU2k,Open Track for Ultimeter
+APOZ,www.KissOZ.dk Tracker. OZ1EKD and OZ7HVO
+APP6,for APRSlib
+APPIC,DB1NTO' PicoAPRS
+APPM,DL1MX's RTL-SDR pytohon Igate
+APPT,KetaiTracker by JF6LZE Takeki
+APQ,Earthquake data
+APR8,APRSdos versions 800+
+APR2MF,DL2MF - MF2APRS Radiosonde WX reporting
+APRD,APRSdata / APRSdr
+APRG,aprsg igate software OH2GVE
+APRHH2,HamHud 2
+APRK,APRStk
+APRNOW,W5GGW ipad application
+APRRT,RPC electronics
+APRS,Generic
+APRSON,Used by PSAT to indicate the DIGI is ON
+APRX,APRSmax / OH2MQK's igate
+//APRX,<39 for OH2MQK's igate
+APRTLM,used in MIM's and Mic-lites
+APRtfc,APRStraffic
+APRST,APRStt (Touch tone)
+//APS  APSx,APRS+SA, etc
+APSAR,ZL4FOX's SARTRACK
+APSAT,digi ON for QIKCOM-1
+APSC,aprsc APRS-IS core server (OH7LZB/OH2MQK)
+APSF,F5OPV embedded devices - was APZ40
+APSK63,APRS Messenger -over-PSK63
+APSK25,APRS Messenger GMSK-250
+APSMS,Paul Dufresne's SMSGTE - SMS Gateway
+APSTM,for W7QO's Balloon trackers
+APSTPO,for N0AGI Satellite Tracking and Operations
+APT2,Tiny Track II
+APT3,Tiny Track III
+APTA,K4ATM's tiny track
+APTB,TinyAPRS by BG5HHP Was APTAxx till Sep 2017
+APTCHE,PU3IKE in Brazil TcheTracker/Tcheduino
+APTIGR,TigerTrack
+APTKPT,TrackPoint N0LP
+APTT,Tiny Track
+APTW,Byons WXTrac
+APTV,for ATV/APRN and SSTV applications
+APU1,UIview 16 bit applications
+APU2,UIview 32 bit apps
+APU3,UIview terminal program
+APUDR,NW Digital Radio's UDR (APRS/Dstar)
+APV,Voice over Internet  applications
+APVR,for IRLP
+APVL,for I-LINK
+APVE,for ECHO link
+APW,WinAPRS
+APWA,APRSISCE Android version
+APWS,DF4IAN's WS2300 WX station
+APWM,APRSISCE KJ4ERJ
+APWW,APRSISCE win32 version
+APX,Xastir
+APXR,Xrouter
+APY,Yeasu
+APY008,Yaesu VX-8 series
+APY350,Yaesu FTM-350 series
+APYT,for YagTracker
+APYS,for W2GMD's Python APRS
+APZ,Experimental
+APZ247,for UPRS NR0Q
+APZ0,Xastir (old versions. See APX)
+APZMAJ,Martyn M1MAJ DeLorme inReach Tracker
+APZMDR,for HaMDR trackers - hessu * hes.iki.fi]
+APZPAD,Smart Palm
+APZTKP,TrackPoint Nick N0LP (Balloon tracking)
+APZWIT,MAP27 radio (Mountain Rescue) EI7IG
+APZWKR,GM1WKR NetSked application
+//non-standard stuff
+AP51,APRS 51

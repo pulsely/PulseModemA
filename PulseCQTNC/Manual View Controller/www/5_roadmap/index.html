@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>PulseModem A</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../shared/css/normalize.css">
+  <link rel="stylesheet" href="../shared/css/skeleton.css">
+  <link rel="icon" type="image/png" href="../shared/images/favicon.png">
+	<style>
+	.container { }
+	.header {
+	  margin-top: 6rem;
+	  text-align: center; }
+	
+	.title {
+		font-family: "AvenirNextCondensed-Regular";
+		margin-bottom: 10px;
+	}
+	
+	h1 {
+		font-size: 70px;
+	}
+	h4 {
+    color: #4b529f;
+
+  }
+	.centerImage {
+	    display: block;
+	    margin: auto;
+	    width: 130px;
+		border-radius: 25px;
+		margin-bottom: 25px;
+	}
+	</style>
+</head>
+<body>
+  <div class="container">
+	<section class="header">
+<!--
+      <div class="value-props row">
+        <div class="four columns value-prop">
+          <img class="value-img" src="images/feather.svg">
+          Light as a feather at ~400 lines &amp; built with mobile in mind.
+        </div>
+        <div class="four columns value-prop">
+          <img class="value-img" src="images/pens.svg">
+          Styles designed to be a starting point, not a UI framework.
+        </div>
+        <div class="four columns value-prop">
+          <img class="value-img" src="images/watch.svg">
+          Quick to start with zero compiling or installing necessary.
+        </div>
+      </div> -->
+    </section>
+
+    
+    <div class="row">
+      <div class="" style="margin-top: 40px;">
+	
+    
+    <h2 class="title">Roadmap for PulseModem A</h2>
+
+        <!-- <h4 style="color: #aaa;">About this app</h4> 
+		    <img src="../shared/images/512.png" class="centerImage" style="float: right; margin-left: 20px; margin-bottom: 20px;" /> -->
+
+<p>PulseModem A aims to be the finest RF telemetry APRS &amp; virtual TNC on iOS. The app will be updated as much as possible.</p>
+        
+        <p>Below are the current roadmap of PulseModem A.</p>
+
+  
+  <h4>1. BLE Hardware Companion &amp; PTT triggers</h4>
+        <p>Given that the 3.5mm TRRS audio port has been removed from the current line-up of iOS devices, PulseModem A is expected to have
+          a companion hardware in BLE4 for easy interface with commonly available VHF radios.
+        </p>
+        
+        <p>High on the list would be a proper PTT triggers for Baofeng, Kenwood &amp; Yaesu radios.</p>
+
+        <h4>2. Updated icons</h4>
+
+        <p>The original APRS specifications have a limited set of icons.</p>
+
+        <p>That has been changed a few years ago, which gave rises to almost 1000+. PulseModem A aims to provide a more comprehensive support.</p>
+
+        <h4>3. Better Messaging Parsing</h4>
+
+        <p>Given that this is the first release of PulseModem A, there could be a myriad combinations of APRS messages that could trigger errors.</p>
+          
+        <p>Along with other kinds of malformed messages from network or software errors...</p>
+
+        <p>This app will be updated with better message handling.</p>
+
+        <h4>4. Better localization support</h4>
+
+        <p>This app is currently being localized to French, Japanese and Chinese. </p>
+
+        <h4>5. Payload process hooks</h4>
+
+        <p>Additional Python interpreter(s) will be added, so the app can response to an incoming APRS message, to trigger other network resources, such as AWS, Azure or the Google Cloud Platform.</p>
+
+        <h4>6. Persistent storages</h4>
+
+        <p>Messages are currently not stored in the app in the first release. Persistent storage(s) will be added once the message parsing is surely to be reliable.</p>
+
+        <p>It would look bad if a malformed message bombs the app consistently on startup.</p>
+        
+        <h4>7. Backport to older iOS versions</h4>
+        
+        <p>Currently PulseModem A only supports iOS 9+. We aim to backport to lower iOS versions.</p>
+        
+        <p>&nbsp;</p>
+
+      </div>
+    </div>
+  </div>
+
+
+
+</body>
+</html>

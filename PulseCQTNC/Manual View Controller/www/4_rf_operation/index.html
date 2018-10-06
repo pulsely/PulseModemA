@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>PulseModem A</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../shared/css/normalize.css">
+  <link rel="stylesheet" href="../shared/css/skeleton.css">
+  <link rel="icon" type="image/png" href="../shared/images/favicon.png">
+	<style>
+	.container { }
+	.header {
+	  margin-top: 6rem;
+	  text-align: center; }
+	
+	.title {
+		font-family: "AvenirNextCondensed-Regular";
+		margin-bottom: 10px;
+	}
+	
+	h1 {
+		font-size: 70px;
+	}
+	h4 {
+    color: #4b529f;
+
+  }
+	.centerImage {
+	    display: block;
+	    margin: auto;
+	    width: 250px;
+		border-radius: 40px;
+		margin-bottom: 30px;
+	}
+	</style>
+</head>
+<body>
+  <div class="container">
+	<section class="header">
+    <h2 class="title">RF Operations with your radio</h2>
+
+    </section>
+
+    
+    <div class="row">
+      <div class="" style="margin-top: 40px;">
+	
+        <p>PulseModem A can work without Internet, by connecting the audio port to your amateur radio.</p>
+        
+        <!-- <p>There are several ways to connect </p> -->
+
+<h4>How to connect to your radio</h4>
+
+<p>If you are using the commonly available Baofeng UV-5R, you may buy the APRS-K2 cable.</p>
+
+<p>You may also build an adaptor yourself, such as this BaofengUV5R-TRRS:<br />
+  https://github.com/johnboiles/BaofengUV5R-TRRS</p>
+
+  <p>There are also the "Easy Digi" interfaces available on ebay as well.</p>
+
+  <p>If you only need to transmit your APRS message, you may actually use the headset output hole, to pipe the audio into your radio mic. This is not recommended though.</p>
+
+<p>You may need to set your radio in VOX mode, for automatic PTT triggers.</p>
+
+
+<h4>Getting Optimal Audio Input ⚠️</h4>
+
+<p>If the RF Audio input is either too low, or too high, then PulseModem A may not decode the APRS signals efficiently.</p>
+
+<p>Please:</p>
+<ol>
+    <li>Observe the wave form at the "RF Receive". Make sure it has a nice wave.</li>
+    <li>Fiddle with your radio and your iPhone volumes. You may need to experiment a bit.</li>
+</ol>
+
+<p>Future versions of PulseModem A will have better AGC to assist. But there are so much an AGC can do.</p>
+
+  <h4>How to transmit the message in the app</h4>
+
+  <p>Go to the "Transmit" section, make sure your callsign SSID has been setup.</p>
+
+  <p>Just type a message, and click "Send ARPS Message". An AX.25 encoded AFSK audio will be generated, which can be transmitted in VOX mode with your radio.</p>
+
+<p>Future versions of the PulseModem A is expected to have a BLE triggered PTT interface with your radio, so stay tuned.</p>
+
+  <img src="../shared/images/transmit.jpg" style="width: 100%; margin-bottom: 20px;" />
+
+
+      </div>
+    </div>
+  </div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - CocoaAsyncSocket (7.6.3)
+  - DZNEmptyDataSet (1.8.1)
+  - HexColors (4.0.0)
+  - INTULocationManager (4.3.0)
+  - MagicalRecord (2.3.2):
+    - MagicalRecord/Core (= 2.3.2)
+  - MagicalRecord/Core (2.3.2)
+  - NSLogger (1.9.0):
+    - NSLogger/ObjC (= 1.9.0)
+  - NSLogger/ObjC (1.9.0)
+  - Onboard (2.3.3)
+  - pop (1.0.10)
+  - PPTopMostController (0.0.1)
+  - RKDropdownAlert (0.3.0)
+  - RMessage (2.3.0):
+    - HexColors (~> 4.0)
+    - PPTopMostController
+  - SDWebImage (4.4.1):
+    - SDWebImage/Core (= 4.4.1)
+  - SDWebImage/Core (4.4.1)
+  - SVProgressHUD (2.2.5)
+  - UICKeyChainStore (2.1.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - CocoaAsyncSocket
+  - DZNEmptyDataSet
+  - INTULocationManager
+  - MagicalRecord
+  - NSLogger
+  - Onboard
+  - pop (~> 1.0)
+  - RKDropdownAlert
+  - RMessage
+  - SDWebImage
+  - SVProgressHUD
+  - UICKeyChainStore
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  HexColors: 5f95843ef89aff6a72e1fd3a8ebabf205cc43379
+  INTULocationManager: 0ca5c76eacc029ba15938fc699520bc333ed6435
+  MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
+  NSLogger: 9f8f5ab017eb34d1a138f4905dc7fb8e9a0e3186
+  Onboard: 4d6e943e20bdd6bc229df967a347dd7514bc2a6f
+  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
+  PPTopMostController: 4e6f1e5f8c645bdcc74cd837a20f607ff262c048
+  RKDropdownAlert: f4b3364c251829ad439dc666836a1f2dad26f4c7
+  RMessage: 27f860ca6712e0926a5fc63f362fd09667d9d02b
+  SDWebImage: 47e9b5b925cbce75946c23f0c42dd19464189af4
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  UICKeyChainStore: 239558492fa260531a0774cfc611ea83a6eaff3a
+
+PODFILE CHECKSUM: 1abaa7eb4f8c4ee5587c62eeee7174d9adb6ee89
+
+COCOAPODS: 1.4.0

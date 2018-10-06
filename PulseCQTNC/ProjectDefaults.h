@@ -1,0 +1,63 @@
+//
+//  ProjectDefaults.h
+//  PulseModemA
+//
+//  Created by Pulsely on 7/31/18.
+//  Copyright © 2018 Pulsely. All rights reserved.
+//
+
+#define KEY_CHAIN_SERVICE_DOMAIN @"com.pulsemodem.a.ios"
+
+#define NOTIFICATION_NEW_RF_APRS_DICTIONARY @"NOTIFICATION_NEW_RF_APRS_DICTIONARY"
+#define NOTIFICATION_APRSTCP_SOCKET_DISCONNECTED @"NOTIFICATION_APRSTCP_SOCKET_DISCONNECTED"
+#define NOTIFICATION_AX25_RESULT @"NOTIFICATION_AX25_RESULT"
+#define NOTIFICATION_NEW_ANNOTATION @"NOTIFICATION_NEW_ANNOTATION"
+
+#define NOTIFICATION_APRS_POSITIONS_DATA_RELOAD @"NOTIFICATION_APRS_POSITIONS_DATA_RELOAD"
+#define NOTIFICATION_APRS_TCPIP_USER_POSITION @"NOTIFICATION_APRS_TCPIP_USER_POSITION"
+
+#define NOTIFICATION_INTU_USER_POSITION @"NOTIFICATION_INTU_USER_POSITION"
+
+//#define NOTIFICATION_USER_VERIFIED @"NOTIFICATION_USER_VERIFIED"
+//#define NOTIFICATION_USER_UNVERIFIED @"NOTIFICATION_USER_UNVERIFIED"
+
+#define APRS_COMMENT_MAXLENGTH 40       // maximum length of the message field
+#define ENABLE_AUDIO_TEST_RAW 0         // Whether to show a test decode of APRS Audio message from output.raw
+
+#define KEYCHAIN_CALLSIGN @"callsign"
+#define KEYCHAIN_PASSCODE @"passcode"
+
+#define APRS_DATA_SOURCE_FEED @"feed"
+#define APRS_DATA_SOURCE_RF @"rf"
+
+#define NSUSERDEFAULTS_APRS_HOST @"APRS_HOST"
+#define NSUSERDEFAULTS_PATH1 @"PATH1"
+#define NSUSERDEFAULTS_PATH2 @"PATH2"
+#define NSUSERDEFAULTS_DST_CALLSIGN @"DST_CALLSIGN"
+#define NSUSERDEFAULTS_MESSAGE_TEXTFIELD @"NSUSERDEFAULTS_MESSAGE_TEXTFIELD"
+#define NSUSERDEFAULTS_APRSIS_AUTOCONNECT @"NSUSERDEFAULTS_APRSIS_AUTOCONNECT"
+#define NSUSERDEFAULTS_RF_RECEIVE_ON_ONSTART @"NSUSERDEFAULTS_RF_RECEIVE_ON_ONSTART"
+
+#define NSUSERDEFAULTS_TRANSMIT_APRS_MODE @"NSUSERDEFAULTS_TRANSMIT_APRS_MODE"
+
+#define NSUSERDEFAULTS_THEME @"NSUSERDEFAULTS_THEME"
+
+#define NSUSERDEFAULTS_LAST_LATITUDE @"NSUSERDEFAULTS_LAST_LATITUDE"
+#define NSUSERDEFAULTS_LAST_LONGITUDE @"NSUSERDEFAULTS_LAST_LONGITUDE"
+
+#define NSUSERDEFAULTS_SYMBOL @"NSUSERDEFAULTS_SYMBOL"
+#define NSUSERDEFAULTS_USE_SI_UNIT @"NSUSERDEFAULTS_USE_SI_UNIT" // For showing Meters or Miles later?
+
+#define DEFAULT_USER_SYMBOL @"/$"
+
+#define COREAUDIO_BUFFER_LENGTH 1.1f    // Decide the buffer length. Shorter would have short latency, but less optimal at decoding
+
+// https://stackoverflow.com/questions/1560081/how-can-i-create-a-uicolor-from-a-hex-string
+#define UIColorFromRGB(rgbValue) \
+[UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
+green:((float)((rgbValue & 0x00FF00) >>  8))/255.0 \
+blue:((float)((rgbValue & 0x0000FF) >>  0))/255.0 \
+alpha:1.0]
+
+#define VERSION_NUMBER [[[NSBundle mainBundle] infoDictionary] objectForKey: @"CFBundleVersion"]
+#define APRS_USER_AGENT_STRING [NSString stringWithFormat: @"PulseModem-A-iOS %@", [[[NSBundle mainBundle] infoDictionary] objectForKey: @"CFBundleVersion"]]
