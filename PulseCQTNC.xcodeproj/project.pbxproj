@@ -1162,7 +1162,6 @@
 				9FE8169D20775EAB008AACA7 /* Sources */,
 				9FE8169E20775EAB008AACA7 /* Frameworks */,
 				9FE8169F20775EAB008AACA7 /* Resources */,
-				65DA8FCF30DCE7919B62B32A /* [CP] Embed Pods Frameworks */,
 				44A5780E352D8804FD044E6C /* [CP] Copy Pods Resources */,
 				9FED150C210C48C70060ABFA /* CopyFiles */,
 			);
@@ -1364,21 +1363,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PulseCQTNC/Pods-PulseCQTNC-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		65DA8FCF30DCE7919B62B32A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PulseCQTNC/Pods-PulseCQTNC-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7A2C0700BD2CFCC7DB5354A5 /* [CP] Check Pods Manifest.lock */ = {

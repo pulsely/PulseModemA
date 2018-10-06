@@ -52,6 +52,24 @@ DEPENDENCIES:
   - SVProgressHUD
   - UICKeyChainStore
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - CocoaAsyncSocket
+    - DZNEmptyDataSet
+    - HexColors
+    - INTULocationManager
+    - MagicalRecord
+    - NSLogger
+    - Onboard
+    - pop
+    - PPTopMostController
+    - RKDropdownAlert
+    - RMessage
+    - SDWebImage
+    - SVProgressHUD
+    - UICKeyChainStore
+
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
@@ -71,4 +89,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 1abaa7eb4f8c4ee5587c62eeee7174d9adb6ee89
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3
