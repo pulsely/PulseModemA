@@ -1,84 +1,83 @@
-# Project Title
+# PulseModem A
 
-One Paragraph of project description goes here
+"PulseModem A" is an APRS client, that reads and reports APRS location and messages.
 
-## Getting Started
+APRS is a digital communications protocol that can exchanges information among large number of stations both local and global.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+## Download PulseModem A at AppStore now
 
-### Prerequisites
+* [PulseModem A at AppStore](https://itunes.apple.com/us/app/pulsemodem-a/id1424005647?mt=8&ign-mpt=uo%3D4)
 
-What things you need to install the software and how to install them
+## What is APRS
 
-```
-Give examples
-```
+APRS stands for: Automatic Packet Reporting System.
 
-### Installing
+APRS is a digital communications protocol that can exchanges information among large number of stations both local and global.
 
-A step by step series of examples that tell you how to get a development env running
+You as a licensed Amateur Radio operators can send and receive APRS location and message in 2 ways:
 
-Say what the step will be
+* Direct to the APRS-IS Network
+* Radio Frequency with Amateur Radio at 2 meter band at 144MHz
 
-```
-Give the example
-```
+### APRS-IS network
 
-And repeat
+You can connect directly with the global APRS-IS network by Internet. Messages reaching the gateways will be relayed to the APRS-IS feed.
 
 ```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+The PulseModem A will display messages from the APRS-IS, 100km around your current location.
 
 ```
-Give an example
+
+### Radio Frequency with Amateur Radio at 2 meter band at 144MHz
+
+APRS messages are short in length, in less than 100 bytes.
+
+Messages are encoded in AX.25 protocol with Bell 202 AFSK modulation.
+
+PulseModem A will play the encoded message through the audio port of your iOS device, to your radio.
+
+
+## Roadmap for PulseModem A
+
+The "A" of "PulseModem A" stands for APRS. Future versions of PulseModem will decode other formats.
+
+PulseModem A aims to be the finest RF telemetry APRS & virtual TNC on iOS. The app will be updated as much as possible.
+
+Below are the current roadmap of PulseModem A.
+
+### 1. BLE Hardware Companion & PTT triggers
+
+Given that the 3.5mm TRRS audio port has been removed from the current line-up of iOS devices, PulseModem A is expected to have a companion hardware in BLE4 for easy interface with commonly available VHF radios.
+
+```
+High on the list would be a proper PTT triggers for Baofeng, Kenwood & Yaesu radios.
 ```
 
-### And coding style tests
+### 2. Updated icons
 
-Explain what these tests test and why
+The original APRS specifications have a limited set of icons.
 
-```
-Give an example
-```
+That has been changed a few years ago, which gave rises to almost 1000+. PulseModem A aims to provide a more comprehensive support.
 
-## Deployment
+### 3. Better Messaging Parsing
 
-Add additional notes about how to deploy this on a live system
+Given that this is the first release of PulseModem A, there could be a myriad combinations of APRS messages that could trigger errors.
 
-## Built With
+Along with other kinds of malformed messages from network or software errors...
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+This app will be updated with better message handling.
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+ [And more...](https://www.pulsemodem.com/pages/roadmap/) 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Pulsely** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GPL License - see the [LICENSE](LICENSE) file for details
 
 ## Acknowledgments
 
