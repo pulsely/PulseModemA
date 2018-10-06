@@ -71,17 +71,111 @@ This app will be updated with better message handling.
 
 ## Authors
 
-* **Pulsely** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+The PulseModem A is developed by **Pulsely** [www.pulsely.com](https://www.pulsely.com/).
+(C) 2018 by Pulsely
+leveraging the hard work from these forward thinkers, developers & designers:
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+**APRS**
+Bob Bruninga
+APRS is a registered trademark of Bob Bruninga. He is the creator of the APRS system.
+
+**APRS Library**
+multimon - original program to decode radio transmissions
+(C) 1996/1997 by Tom Sailer HB9JNX/AE4WA
+
+**multimon-ng** - great improvment of multimon, for the RF Receive function
+[https://github.com/EliasOenal/multimon-ng](https://github.com/EliasOenal/multimon-ng)
+(C) 2012-2018 by Elias Oenal
+
+**ax25beacon** - AX.25 beacon packet generator for APRS
+[https://github.com/fsphil/ax25beacon](https://github.com/fsphil/ax25beacon)
+Philip Heron phil@sanslogic.co.uk
+
+**libfap** - ARPS parser
+[http://www.pakettiradio.net/libfap/](http://www.pakettiradio.net/libfap/)
+Originally written by Tapio Sokura, OH2KKU and Heikki Hannikainen, OH7LZB and ported to C by Tapio Aaltonen, OH2GVE
+
+### iOS components
+**EZAudio** - iOS and macOS audio visualization framework built upon Core Audio
+[https://github.com/syedhali/EZAudio](https://github.com/syedhali/EZAudio)
+by Syed Haris Ali
+
+**TPCircularBuffer** - A simple, fast circular buffer implementation
+[https://github.com/michaeltyson/TPCircularBuffer](https://github.com/michaeltyson/TPCircularBuffer)
+by Michael Tyson
+
+**AFNetworking** - delightful networking framework for iOS, macOS, watchOS, and tvOS
+[https://github.com/AFNetworking/AFNetworking](https://github.com/AFNetworking/AFNetworking)
+AFNetworking is owned and maintained by the Alamofire Software Foundation.
+AFNetworking was originally created by Scott Raymond and Mattt Thompson in the development of Gowalla for iPhone.
+
+**DZNEmptyDataSet** - drop-in UITableView/UICollectionView superclass category for showing empty datasets
+[https://github.com/dzenbot/DZNEmptyDataSet](https://github.com/dzenbot/DZNEmptyDataSet)
+Copyright (c) 2016 Ignacio Romero Zurbuchen iromero@dzen.cl
+
+**UICKeyChainStore** - simple wrapper for Keychain on iOS, watchOS, tvOS and macOS 
+[https://github.com/kishikawakatsumi/UICKeyChainStore](https://github.com/kishikawakatsumi/UICKeyChainStore)
+By kishikawa katsumi, kishikawakatsumi@mac.com
+
+**RMessage** - crisp in-app notification/message banner built in ObjC
+https://github.com/donileo/RMessage
+Copyright (c) 2016 TouchSix, Inc. Adonis Peralta donileo@gmail.com
+
+**Onboard** - easily create a beautiful and engaging onboarding experience
+https://github.com/mamaral/Onboard
+Copyright (c) 2014 Michael Amaral
+
+**Chameleon** - lightweight, yet powerful, color framework for iOS
+https://github.com/viccalexander/Chameleon
+by Vicc Alexander
+
+**CocoaAsyncSocket** - Asynchronous socket networking library for Mac and iOS
+https://github.com/robbiehanson/CocoaAsyncSocket
+Copyright (c) 2017, Deusty, LLC
+
+### Graphics
+**aprs-symbols**
+aprs.fi APRS symbol set, high-resolution, vector
+https://github.com/hessu/aprs-symbols
+by Heikki Hannikainen
+
+**App icon:**
+Icon by By Oksana Latysheva, UA
+https://thenounproject.com/search/?q=chat&i=799081
+
+**Transmit icon:**
+Power by AlfredoCreates.com/icons & Flaticondesign.com from the Noun Project
+https://thenounproject.com/search/?q=power&i=328033
+
+**Map icon:**
+Map by Adrien Coquet from the Noun Project
+https://thenounproject.com/search/?q=map&i=1854989
+
+**List icon:**
+List by Iconstock from the Noun Project https://thenounproject.com/search/?q=list&i=1286740
+
+**Info icon:**
+about by Hector from the Noun Project
+https://thenounproject.com/search/?q=about&i=559928
+
+**Cloud icon:**
+servers by Jony from the Noun Project
+https://thenounproject.com/search/?q=server&i=1866281
+
+**Sleeping cat:**
+Sleeping Cat by parkjisun from the Noun Project
+https://thenounproject.com/term/sleeping-cat/196644/
+
+**Apple Icon:**
+Apple by Milinda Courey from the Noun Project
+https://thenounproject.com/search/?q=apple&i=231811
+
+
+## Missing Acknowledgements?
+
+We try not to missing anyone, but if you know someone is missing, please contact PulseModem A via its github repo.
 
 ## License
 
 This project is licensed under the GPL License - see the [LICENSE](LICENSE) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 
