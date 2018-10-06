@@ -8,6 +8,9 @@ APRS is a digital communications protocol that can exchanges information among l
 
 * [PulseModem A at AppStore](https://itunes.apple.com/us/app/pulsemodem-a/id1424005647?mt=8&ign-mpt=uo%3D4)
 
+![PulseModem A Screenshot](github/screenshot.jpg)
+
+
 ## What is APRS
 
 APRS stands for: Automatic Packet Reporting System.
@@ -25,7 +28,6 @@ You can connect directly with the global APRS-IS network by Internet. Messages r
 
 ```
 The PulseModem A will display messages from the APRS-IS, 100km around your current location.
-
 ```
 
 ### Radio Frequency with Amateur Radio at 2 meter band at 144MHz
@@ -73,7 +75,7 @@ This app will be updated with better message handling.
 
 The PulseModem A is developed by **Pulsely** [www.pulsely.com](https://www.pulsely.com/).  
 (C) 2018 by Pulsely  
-leveraging the hard work from these forward thinkers, developers & designers:
+leveraging the following hard work from these forward thinkers, developers & designers:
 
 **APRS**  
 Bob Bruninga  
@@ -114,23 +116,23 @@ AFNetworking was originally created by Scott Raymond and Mattt Thompson in the d
 Copyright (c) 2016 Ignacio Romero Zurbuchen iromero@dzen.cl
 
 **UICKeyChainStore** - simple wrapper for Keychain on iOS, watchOS, tvOS and macOS
-[https://github.com/kishikawakatsumi/UICKeyChainStore](https://github.com/kishikawakatsumi/UICKeyChainStore) 
+[https://github.com/kishikawakatsumi/UICKeyChainStore](https://github.com/kishikawakatsumi/UICKeyChainStore)  
 By kishikawa katsumi, kishikawakatsumi@mac.com
 
 **RMessage** - crisp in-app notification/message banner built in ObjC\
-https://github.com/donileo/RMessage
+https://github.com/donileo/RMessage  
 Copyright (c) 2016 TouchSix, Inc. Adonis Peralta
 
 **Onboard** - easily create a beautiful and engaging onboarding experience\
-https://github.com/mamaral/Onboard
+https://github.com/mamaral/Onboard  
 Copyright (c) 2014 Michael Amaral
 
 **Chameleon** - lightweight, yet powerful, color framework for iOS\
-https://github.com/viccalexander/Chameleon
+https://github.com/viccalexander/Chameleon  
 by Vicc Alexander
 
 **CocoaAsyncSocket** - Asynchronous socket networking library for Mac and iOS\
-https://github.com/robbiehanson/CocoaAsyncSocket
+https://github.com/robbiehanson/CocoaAsyncSocket  
 Copyright (c) 2017, Deusty, LLC
 
 ### Graphics
@@ -143,7 +145,7 @@ by Heikki Hannikainen
 Icon by By Oksana Latysheva, UA  
 https://thenounproject.com/search/?q=chat&i=799081
 
-**Transmit icon:**\ 
+**Transmit icon:**  
 Power by AlfredoCreates.com/icons & Flaticondesign.com from the Noun Project  
 https://thenounproject.com/search/?q=power&i=328033
 
@@ -177,5 +179,5 @@ We try not to missing anyone, but if you know someone is missing, please contact
 
 ## License
 
-This project is licensed under the GPL License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the **GNU General Public License v3.0** - see the [LICENSE](LICENSE) file for details
 
