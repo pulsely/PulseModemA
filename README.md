@@ -113,53 +113,53 @@ AFNetworking was originally created by Scott Raymond and Mattt Thompson in the d
 [https://github.com/dzenbot/DZNEmptyDataSet](https://github.com/dzenbot/DZNEmptyDataSet)  
 Copyright (c) 2016 Ignacio Romero Zurbuchen iromero@dzen.cl
 
-**UICKeyChainStore** - simple wrapper for Keychain on iOS, watchOS, tvOS and macOS   
-[https://github.com/kishikawakatsumi/UICKeyChainStore](https://github.com/kishikawakatsumi/UICKeyChainStore)  
+**UICKeyChainStore** - simple wrapper for Keychain on iOS, watchOS, tvOS and macOS\ 
+[https://github.com/kishikawakatsumi/UICKeyChainStore](https://github.com/kishikawakatsumi/UICKeyChainStore)\ 
 By kishikawa katsumi, kishikawakatsumi@mac.com
 
-**RMessage** - crisp in-app notification/message banner built in ObjC  
-https://github.com/donileo/RMessage  
+**RMessage** - crisp in-app notification/message banner built in ObjC\
+https://github.com/donileo/RMessage\
 Copyright (c) 2016 TouchSix, Inc. Adonis Peralta
 
-**Onboard** - easily create a beautiful and engaging onboarding experience  
-https://github.com/mamaral/Onboard  
+**Onboard** - easily create a beautiful and engaging onboarding experience\
+https://github.com/mamaral/Onboard\
 Copyright (c) 2014 Michael Amaral
 
-**Chameleon** - lightweight, yet powerful, color framework for iOS  
-https://github.com/viccalexander/Chameleon  
+**Chameleon** - lightweight, yet powerful, color framework for iOS\
+https://github.com/viccalexander/Chameleon\
 by Vicc Alexander
 
-**CocoaAsyncSocket** - Asynchronous socket networking library for Mac and iOS  
-https://github.com/robbiehanson/CocoaAsyncSocket  
+**CocoaAsyncSocket** - Asynchronous socket networking library for Mac and iOS\
+https://github.com/robbiehanson/CocoaAsyncSocket\
 Copyright (c) 2017, Deusty, LLC
 
 ### Graphics
-**aprs-symbols**  
+**aprs-symbols**\
 aprs.fi APRS symbol set, high-resolution, vector  
 https://github.com/hessu/aprs-symbols  
 by Heikki Hannikainen
 
-**App icon:**  
+**App icon:**\
 Icon by By Oksana Latysheva, UA  
 https://thenounproject.com/search/?q=chat&i=799081
 
-**Transmit icon:**  
+**Transmit icon:**\ 
 Power by AlfredoCreates.com/icons & Flaticondesign.com from the Noun Project  
 https://thenounproject.com/search/?q=power&i=328033
 
-**Map icon:**  
+**Map icon:**\
 Map by Adrien Coquet from the Noun Project  
 https://thenounproject.com/search/?q=map&i=1854989
 
-**List icon:**  
+**List icon:**\
 List by Iconstock from the Noun Project https://thenounproject.com/search/?q=list&i=1286740
 
-**Info icon:**  
-about by Hector from the Noun Project  
+**Info icon:**\
+about by Hector from the Noun Project  \
 https://thenounproject.com/search/?q=about&i=559928
 
-**Cloud icon:**&nbsp;
-servers by Jony from the Noun Project&nbsp;
+**Cloud icon:**\
+servers by Jony from the Noun Project\
 https://thenounproject.com/search/?q=server&i=1866281
 
 **Sleeping cat:**\
