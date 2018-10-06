@@ -113,8 +113,8 @@ AFNetworking was originally created by Scott Raymond and Mattt Thompson in the d
 [https://github.com/dzenbot/DZNEmptyDataSet](https://github.com/dzenbot/DZNEmptyDataSet)  
 Copyright (c) 2016 Ignacio Romero Zurbuchen iromero@dzen.cl
 
-**UICKeyChainStore** - simple wrapper for Keychain on iOS, watchOS, tvOS and macOS\ 
-[https://github.com/kishikawakatsumi/UICKeyChainStore](https://github.com/kishikawakatsumi/UICKeyChainStore)\ 
+**UICKeyChainStore** - simple wrapper for Keychain on iOS, watchOS, tvOS and macOS
+[https://github.com/kishikawakatsumi/UICKeyChainStore](https://github.com/kishikawakatsumi/UICKeyChainStore) 
 By kishikawa katsumi, kishikawakatsumi@mac.com
 
 **RMessage** - crisp in-app notification/message banner built in ObjC\
@@ -122,15 +122,15 @@ https://github.com/donileo/RMessage\
 Copyright (c) 2016 TouchSix, Inc. Adonis Peralta
 
 **Onboard** - easily create a beautiful and engaging onboarding experience\
-https://github.com/mamaral/Onboard\
+https://github.com/mamaral/Onboard
 Copyright (c) 2014 Michael Amaral
 
 **Chameleon** - lightweight, yet powerful, color framework for iOS\
-https://github.com/viccalexander/Chameleon\
+https://github.com/viccalexander/Chameleon
 by Vicc Alexander
 
 **CocoaAsyncSocket** - Asynchronous socket networking library for Mac and iOS\
-https://github.com/robbiehanson/CocoaAsyncSocket\
+https://github.com/robbiehanson/CocoaAsyncSocket
 Copyright (c) 2017, Deusty, LLC
 
 ### Graphics
