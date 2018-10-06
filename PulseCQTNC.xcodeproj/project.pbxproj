@@ -295,7 +295,7 @@
 		9F68974D211842AF009DFF54 /* transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = transparent.png; sourceTree = "<group>"; };
 		9F6D7CE421199B91007D8A30 /* SymbolPickerTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SymbolPickerTableViewController.h; sourceTree = "<group>"; };
 		9F6D7CE521199B91007D8A30 /* SymbolPickerTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SymbolPickerTableViewController.m; sourceTree = "<group>"; };
-		9F753BDA21685A9A0098173E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		9F753BDA21685A9A0098173E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.markdown; };
 		9F7AD2682105CEB5000BBFFA /* PulseCQAPRS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PulseCQAPRS-Prefix.pch"; sourceTree = "<group>"; };
 		9F7AD2692105D5B8000BBFFA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		9F7FF08F21072357008E0AA5 /* tabbar_info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_info.png; sourceTree = "<group>"; };

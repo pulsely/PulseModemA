@@ -158,16 +158,16 @@ List by Iconstock from the Noun Project https://thenounproject.com/search/?q=lis
 about by Hector from the Noun Project  
 https://thenounproject.com/search/?q=about&i=559928
 
-**Cloud icon:**  
-servers by Jony from the Noun Project  
+**Cloud icon:**&nbsp;
+servers by Jony from the Noun Project&nbsp;
 https://thenounproject.com/search/?q=server&i=1866281
 
-**Sleeping cat:**  
-Sleeping Cat by parkjisun from the Noun Project  
+**Sleeping cat:**\
+Sleeping Cat by parkjisun from the Noun Project\
 https://thenounproject.com/term/sleeping-cat/196644/
 
-**Apple Icon:**  
-Apple by Milinda Courey from the Noun Project  
+**Apple Icon:**\
+Apple by Milinda Courey from the Noun Project\
 https://thenounproject.com/search/?q=apple&i=231811
 
 
