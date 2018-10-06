@@ -1,6 +1,6 @@
 # PulseModem A
 
-"PulseModem A" is an APRS client, that reads and reports APRS location and messages.
+"PulseModem A" is an iOS APRS client, that reads and reports APRS location and messages. It works on both iPhone and iPad as an iOS universal app.
 
 APRS is a digital communications protocol that can exchanges information among large number of stations both local and global.
 
