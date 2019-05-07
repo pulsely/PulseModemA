@@ -10,7 +10,7 @@ import UIKit
 
 class ManualViewController: UIViewController, UIWebViewDelegate {
     @IBOutlet weak var webview: UIWebView!
-    var d: NSDictionary = [:]
+    @objc var d: NSDictionary = [:]
     
     override func viewDidLoad() {
         super.viewDidLoad()

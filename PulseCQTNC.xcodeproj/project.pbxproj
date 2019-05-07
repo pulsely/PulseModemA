@@ -1327,7 +1327,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-PulseCQTNC/Pods-PulseCQTNC-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-PulseCQTNC/Pods-PulseCQTNC-resources.sh",
 				"${PODS_ROOT}/RMessage/RMessage/Resources/RMessageView.xib",
 				"${PODS_ROOT}/RMessage/RMessage/Assets/Icons.xcassets/Contents.json",
 				"${PODS_ROOT}/RMessage/RMessage/Assets/Icons.xcassets/NotificationBackgroundErrorIcon.imageset/Contents.json",
@@ -1362,7 +1362,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PulseCQTNC/Pods-PulseCQTNC-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PulseCQTNC/Pods-PulseCQTNC-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7A2C0700BD2CFCC7DB5354A5 /* [CP] Check Pods Manifest.lock */ = {
@@ -1689,6 +1689,7 @@
 				HEADER_SEARCH_PATHS = (
 					/opt/local/include,
 					"$(SRCROOT)/Dependencies/EZAudio",
+					"${PODS_ROOT}/**",
 				);
 				INFOPLIST_FILE = PulseCQTNC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -1705,7 +1706,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "PulseCQTNC/PulseCQTNC-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				SYSTEM_FRAMEWORK_SEARCH_PATHS = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "arm64 armv7 armv7s";
@@ -1731,6 +1732,7 @@
 				HEADER_SEARCH_PATHS = (
 					/opt/local/include,
 					"$(SRCROOT)/Dependencies/EZAudio",
+					"${PODS_ROOT}/**",
 				);
 				INFOPLIST_FILE = PulseCQTNC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -1746,7 +1748,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "PulseCQ TNC AppStore";
 				SWIFT_OBJC_BRIDGING_HEADER = "PulseCQTNC/PulseCQTNC-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				SYSTEM_FRAMEWORK_SEARCH_PATHS = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "arm64 armv7 armv7s";

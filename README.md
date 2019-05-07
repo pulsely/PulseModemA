@@ -71,6 +71,12 @@ This app will be updated with better message handling.
 
  [And more...](https://www.pulsemodem.com/pages/roadmap/) 
 
+
+## Dependencies
+
+Please install **libao** with Mac Ports:
+sudo port install libao
+
 ## Authors
 
 The PulseModem A is developed by **Pulsely** [www.pulsely.com](https://www.pulsely.com/).  
