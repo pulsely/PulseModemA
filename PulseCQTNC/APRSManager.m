@@ -7,7 +7,7 @@
 //
 
 #import "APRSManager.h"
-#include <ao/ao.h>
+#include "ao.h"
 #include <stdint.h>
 #include <string.h>
 #include <stdarg.h>
