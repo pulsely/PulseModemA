@@ -1677,6 +1677,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 0.98;
 				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = 362TGD3M6V;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/PulseCQTNC/PulseCQAPRS-Prefix.pch";
@@ -1701,6 +1702,7 @@
 					"$(inherited)",
 					/opt/local/lib,
 				);
+				MARKETING_VERSION = 0.98;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pulsely.pulsecq.tnc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1722,6 +1724,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 0.98;
 				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = 362TGD3M6V;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/PulseCQTNC/PulseCQAPRS-Prefix.pch";
@@ -1744,6 +1747,7 @@
 					"$(inherited)",
 					/opt/local/lib,
 				);
+				MARKETING_VERSION = 0.98;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pulsely.pulsecq.tnc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "PulseCQ TNC AppStore";

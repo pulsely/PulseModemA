@@ -15,6 +15,5 @@ pod 'MagicalRecord'
 pod 'Onboard'
 pod 'RMessage'
 pod 'CocoaAsyncSocket'
-pod 'Onboard'
 
 end

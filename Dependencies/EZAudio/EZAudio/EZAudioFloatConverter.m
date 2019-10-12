@@ -213,6 +213,8 @@ OSStatus EZAudioFloatConverterCallback(AudioConverterRef             inAudioConv
         //
         // Fill out the audio converter with the source buffer
         //
+        
+        /*
         [EZAudioUtilities checkResult:AudioConverterFillComplexBuffer(self.info->converterRef,
                                                                       EZAudioFloatConverterCallback,
                                                                       audioBufferList,
@@ -220,7 +222,19 @@ OSStatus EZAudioFloatConverterCallback(AudioConverterRef             inAudioConv
                                                                       self.info->floatAudioBufferList,
                                                                       packetDescriptions ? packetDescriptions : self.info->packetDescriptions)
                             operation:"Failed to fill complex buffer in float converter"];
+        */
         
+        OSStatus status = AudioConverterFillComplexBuffer(self.info->converterRef,
+        EZAudioFloatConverterCallback,
+        audioBufferList,
+        &frames,
+        self.info->floatAudioBufferList,
+        packetDescriptions ? packetDescriptions : self.info->packetDescriptions);
+
+        if (status > 0 ) {
+        AudioConverterReset(self.info->converterRef);
+        }
+
         //
         // Copy the converted buffers into the float buffer array stored
         // in memory
