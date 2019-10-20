@@ -28,6 +28,7 @@
 #import "RFReceiveController.h"
 #include "multimon.h"
 #import <NSLogger/NSLogger.h>
+#import <RMessage.h>
 
 //float *convertedBuffer = NULL;
 //AudioUnit *audioUnit_ = NULL;
@@ -184,6 +185,11 @@
     } else {
         self.microphoneTextLabel.text = @"Audio Input On";
     }
+    
+    // Do a notification on headphone plugged in or not
+    [[NSNotificationCenter defaultCenter] addObserver: self selector:@selector(audioRouteChangeListenerCallback:)
+                                                 name: AVAudioSessionRouteChangeNotification
+                                               object: nil];
 }
 
 //------------------------------------------------------------------------------
@@ -447,6 +453,50 @@ withNumberOfChannels:(UInt32)numberOfChannels
         [weakSelf.microphoneInputPickerView reloadAllComponents];
         [weakSelf setMicrophonePickerViewHidden:YES];
     });
+}
+
+
+- (BOOL)isHeadsetPluggedIn {
+    // https://stackoverflow.com/questions/21292586/are-headphones-plugged-in-ios7
+    AVAudioSessionRouteDescription* route = [[AVAudioSession sharedInstance] currentRoute];
+    for (AVAudioSessionPortDescription* desc in [route outputs]) {
+        if ([[desc portType] isEqualToString: AVAudioSessionPortHeadphones])
+            return YES;
+    }
+    return NO;
+}
+
+- (void)audioRouteChangeListenerCallback:(id)sender {
+    
+    [self.microphone stopFetchingAudio];
+    
+    dispatch_async(dispatch_get_main_queue(), ^(void){
+        [self.toggleSwitch setOn: NO];
+        self.microphoneTextLabel.text = @"Audio Input Off";
+        
+        if ([self isHeadsetPluggedIn]) {
+            dispatch_async(dispatch_get_main_queue(), ^{
+                [RMessage showNotificationWithTitle: @"Plugged in!"
+                                           subtitle: @"You have plugged in an audio source"
+                                               type: RMessageTypeSuccess
+                                     customTypeName:nil
+                                           callback:nil];
+            });
+
+            
+        } else {
+            dispatch_async(dispatch_get_main_queue(), ^{
+
+                [RMessage showNotificationWithTitle: @"Headphone port unplugged"
+                                           subtitle: @"Current audio source unplugged."
+                                               type: RMessageTypeError
+                                     customTypeName:nil
+                                           callback:nil];
+            });
+
+        }
+    });
+
 }
 
 
