@@ -430,5 +430,10 @@
     }
 }
 
+- (void)clearAllMessages {
+    [self.positions_array removeAllObjects];
+
+}
+
 
 @end

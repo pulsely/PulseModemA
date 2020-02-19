@@ -240,7 +240,6 @@
     [callsign_attributed_string addAttribute: NSFontAttributeName
                        value: [UIFont boldSystemFontOfSize:17]
                        range: NSMakeRange( 0, [callsign_attributed_string length] )];
-
     
     NSMutableAttributedString *separator_attributed_string = [[NSMutableAttributedString alloc] initWithString: @">"];
     [separator_attributed_string addAttribute: NSForegroundColorAttributeName value: [UIColor darkGrayColor] range: NSMakeRange( 0, [separator_attributed_string length] )];

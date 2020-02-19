@@ -11,6 +11,7 @@
 #import <NSLogger/NSLogger.h>
 #import <UICKeyChainStore/UICKeyChainStore.h>
 #import "ToCallHelper.h"
+#import <RMessage.h>
 
 @interface SettingsTableViewController ()
 
@@ -176,6 +177,20 @@
     LoggerApp( 1, @"representation: %@", [defaults dictionaryRepresentation]);
 }
 
+- (void)clearAPRSPositions:(id)sender {
+    [ [APRSPositionManager sharedManager] clearAllMessages];
+    
+    [RMessage showNotificationWithTitle: @"APRS positions cleared"
+                               subtitle: @"All APRS positions have been emptied."
+                                   type: RMessageTypeSuccess
+                         customTypeName:nil
+                               callback:nil];
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName: NOTIFICATION_APRS_POSITIONS_DATA_RELOAD
+                                                        object: nil
+                                                      userInfo: nil];
+
+}
 
 #pragma mark - UITextField delegates
 
@@ -189,7 +204,7 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 3;
+    return 4;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -203,8 +218,11 @@
         case 1:
             return 1;
             break;
-        default:
+        case 2:
             return 2;
+            break;
+        default:
+            return 1;
             break;
     }
     return 2;
@@ -230,8 +248,11 @@
         case 1:
             sectionName = @"APRS-IS Host";
             break;
-        default:
+        case 2:
             sectionName = @"Preferences";
+            break;
+        default:
+            sectionName = @"Misc actions";
             break;
     }
     return sectionName;
@@ -349,6 +370,23 @@
             label3.text = @"RF receive on program launch";
             
             UISwitch *switch1 = (UISwitch *)[cell viewWithTag:104];
+        }
+
+        return cell;
+    }
+    if ([indexPath section] == 3) {
+        static NSString *CellIdentifier = @"Cell4";
+        
+        UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier: CellIdentifier forIndexPath:indexPath];
+        if (cell == nil) {
+            cell = [[UITableViewCell alloc] initWithStyle: UITableViewCellStyleDefault reuseIdentifier: CellIdentifier];
+        }
+        
+        if ([indexPath row] == 0) {
+            UIButton *button = (UIButton *)[cell viewWithTag: 200];
+            [button setTitle: @"Clear APRS Positions" forState: UIControlStateNormal];
+            [button addTarget:self action:@selector(clearAPRSPositions:) forControlEvents:UIControlEventTouchUpInside];
+
         }
 
         return cell;

@@ -38,4 +38,6 @@
 
 - (void)writeMessages;
 
+- (void)clearAllMessages;
+
 @end

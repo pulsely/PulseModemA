@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "APRSPositionManager.h"
 
 @interface SettingsTableViewController : UITableViewController <UITextFieldDelegate> {
     
@@ -19,5 +20,6 @@
 @property (nonatomic, retain) IBOutlet UISwitch *rfreceiveSwitch;
 
 - (void)saveSettings:(id)sender;
+- (void)clearAPRSPositions:(id)sender;
 
 @end
