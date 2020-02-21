@@ -51,6 +51,13 @@
                                              selector: @selector(addAPRSPositionToMap:)
                                                 name: NOTIFICATION_NEW_ANNOTATION
                                               object: nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector: @selector(removeAllAnnotations:)
+                                                name: NOTIFICATION_APRS_POSITIONS_MAP_ALL_CLEAR
+                                              object: nil];
+
+    
+    
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -83,6 +90,10 @@
 //            [self.mapView showAnnotations: self.annotations animated: NO];
         }
     });
+}
+
+- (void)removeAllAnnotations:(NSNotification *)notification {
+    [self.mapView removeAnnotations: self.mapView.annotations];
 }
 
  // Consider to remove the MapKit upon viewWillDisappear:

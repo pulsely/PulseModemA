@@ -189,6 +189,10 @@
     [[NSNotificationCenter defaultCenter] postNotificationName: NOTIFICATION_APRS_POSITIONS_DATA_RELOAD
                                                         object: nil
                                                       userInfo: nil];
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName: NOTIFICATION_APRS_POSITIONS_MAP_ALL_CLEAR
+                                                        object: nil
+                                                      userInfo: nil];
 
 }
 
