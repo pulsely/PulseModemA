@@ -78,6 +78,8 @@ Please install **libao** with Homebrew:
 
 brew install libao
 
+Homebrew change request and fixs contributed by [@n8henrie](https://github.com/n8henrie)
+
 You may try to install **libao** with Mac Ports:
 
 sudo port install libao
