@@ -74,7 +74,12 @@ This app will be updated with better message handling.
 
 ## Dependencies
 
-Please install **libao** with Mac Ports:
+Please install **libao** with Homebrew:
+
+brew install libao
+
+You may try to install **libao** with Mac Ports:
+
 sudo port install libao
 
 ## Authors

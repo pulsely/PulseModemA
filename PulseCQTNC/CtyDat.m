@@ -445,6 +445,8 @@
                 if ([line hasSuffix: @";"]) {
                     trimmed_line = [trimmed_line substringWithRange:NSMakeRange(0, [line length] - 1)];
                 }
+                trimmed_line = [trimmed_line stringByReplacingOccurrencesOfString:@";" withString:@""];
+                trimmed_line = [trimmed_line stringByReplacingOccurrencesOfString:@"=" withString:@""];
 
                 NSArray *minor_dxcc_array = [trimmed_line componentsSeparatedByString: @","];
                 
@@ -471,29 +473,30 @@
         }
         //LOG_GENERAL(  0, @"Total line count: %d", line_count);
     }
+    
+    NSLog( @"%@", self.dxcc);
 }
 
 - (NSString *)countryareaOfCallSign:(NSString *)callsign {
-    //bool hasprefix = NO;
-    
-    NSString *match = nil;
-    
+    bool hasprefix = NO;
+    NSString *matched_country = @"";
     for (int i = 0; i < [self.country_array count]; i++) {
         NSString *match = [self.country_array objectAtIndex: i];
         //LOG_GENERAL( 0, @"match: %@", match);
-
+        
         if ([callsign hasPrefix: match]) {
-            match = [[self.dxcc objectForKey: match] objectForKey: @"name"];
-            return match;
+            NSLog(@"Callsign has prefix: %@", match);
+            
+            hasprefix = YES;
+            matched_country = [[self.dxcc objectForKey: match] objectForKey: @"name"];
         }
     }
     
-    // overwrite error with Taiwan BX prefix
-    if ([callsign hasPrefix: @"BX"]) {
-        return @"Taiwan";
+    if (hasprefix) {
+        return matched_country;
+    } else {
+        return nil;
     }
-    
-    return match;
 }
 
 - (NSString *)countryareaCodeOfCallSign:(NSString *)callsign {

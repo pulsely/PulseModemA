@@ -1691,6 +1691,7 @@
 					/opt/local/include,
 					"$(SRCROOT)/Dependencies/EZAudio",
 					"${PODS_ROOT}/**",
+					/opt/homebrew/include,
 				);
 				INFOPLIST_FILE = PulseCQTNC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -1702,7 +1703,7 @@
 					"$(inherited)",
 					/opt/local/lib,
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pulsely.pulsecq.tnc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1736,6 +1737,7 @@
 					/opt/local/include,
 					"$(SRCROOT)/Dependencies/EZAudio",
 					"${PODS_ROOT}/**",
+					/opt/homebrew/include,
 				);
 				INFOPLIST_FILE = PulseCQTNC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -1747,7 +1749,7 @@
 					"$(inherited)",
 					/opt/local/lib,
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pulsely.pulsecq.tnc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "PulseCQ TNC AppStore";
