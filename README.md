@@ -76,13 +76,13 @@ This app will be updated with better message handling.
 
 Please install **libao** with Homebrew:
 
-brew install libao
+> brew install libao
 
 Homebrew change request and fixs contributed by [@n8henrie](https://github.com/n8henrie)
 
-You may try to install **libao** with Mac Ports:
+You may also try to install **libao** with Mac Ports, but it is currently not supported:
 
-sudo port install libao
+> sudo port install libao
 
 ## Authors
 
