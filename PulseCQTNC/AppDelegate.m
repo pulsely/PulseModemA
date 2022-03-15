@@ -56,7 +56,7 @@
 
     //[positionManager connectAction: nil];
 
-    [Chameleon setGlobalThemeUsingPrimaryColor: UIColorFromRGB(0x2e3192) withSecondaryColor: [UIColor clearColor] andContentStyle: UIContentStyleContrast];
+    //[Chameleon setGlobalThemeUsingPrimaryColor: UIColorFromRGB(0x2e3192) withSecondaryColor: [UIColor clearColor] andContentStyle: UIContentStyleContrast];
     
     
     // Subscrib to location changes
