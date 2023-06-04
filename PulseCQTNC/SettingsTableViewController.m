@@ -18,7 +18,7 @@
 @end
 
 @implementation SettingsTableViewController
-//@synthesize callsignTextField, passcodeTextField;
+@synthesize callsignTextField, passcodeTextField;
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear: animated];
@@ -45,6 +45,7 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     [self.tableView reloadData];
+    
     UITableViewCell *cell0 = [self.tableView cellForRowAtIndexPath:  [NSIndexPath indexPathForRow: 0 inSection: 0]];
     self.callsignTextField = (UITextField *)[cell0 viewWithTag: 101];
     self.callsignTextField.text = callsign;
@@ -122,7 +123,7 @@
     }
     
     LoggerApp( 1, @"representation: %@", [defaults dictionaryRepresentation]);
-
+    [self.tableView reloadData];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -250,7 +251,7 @@
             sectionName = @"APRS-IS";
             break;
         case 1:
-            sectionName = @"APRS Passcode";
+            sectionName = @"APRS-IS Host";
             break;
         case 2:
             sectionName = @"Preferences";
@@ -289,7 +290,7 @@
         }
         if ([indexPath row] == 1) {
             UILabel *label2 = (UILabel *)[cell viewWithTag:100];
-            label2.text = @"APRS Host";
+            label2.text = @"APRS Passcode";
             
             UITextField *textfield2 = (UITextField *)[cell viewWithTag:101];
             textfield2.secureTextEntry = YES;
@@ -345,7 +346,7 @@
         
         if ([indexPath row] == 0) {
             UILabel *label1 = (UILabel *)[cell viewWithTag:100];
-            label1.text = @"APRS passcode";
+            label1.text = @"APRS Host";
             
             UITextField *textfield1 = (UITextField *)[cell viewWithTag:101];
             textfield1.placeholder = @"rotate.aprs2.net";
