@@ -19,6 +19,9 @@
 @property (nonatomic, retain) IBOutlet UISwitch *autoConnectSwitch;
 @property (nonatomic, retain) IBOutlet UISwitch *rfreceiveSwitch;
 
+
+@property (nonatomic, retain) IBOutlet UILabel *passcodeLabel;
+
 - (void)saveSettings:(id)sender;
 - (void)clearAPRSPositions:(id)sender;
 

@@ -18,7 +18,7 @@
 @end
 
 @implementation SettingsTableViewController
-@synthesize callsignTextField, passcodeTextField;
+//@synthesize callsignTextField, passcodeTextField;
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear: animated];
@@ -250,7 +250,7 @@
             sectionName = @"APRS-IS";
             break;
         case 1:
-            sectionName = @"APRS-IS Host";
+            sectionName = @"APRS Passcode";
             break;
         case 2:
             sectionName = @"Preferences";
@@ -289,7 +289,7 @@
         }
         if ([indexPath row] == 1) {
             UILabel *label2 = (UILabel *)[cell viewWithTag:100];
-            label2.text = @"APRS Passcode";
+            label2.text = @"APRS Host";
             
             UITextField *textfield2 = (UITextField *)[cell viewWithTag:101];
             textfield2.secureTextEntry = YES;
@@ -344,10 +344,10 @@
         }
         
         if ([indexPath row] == 0) {
-            UILabel *label1 = (UILabel *)[cell viewWithTag:200];
-            label1.text = @"APRS Host";
+            UILabel *label1 = (UILabel *)[cell viewWithTag:100];
+            label1.text = @"APRS passcode";
             
-            UITextField *textfield1 = (UITextField *)[cell viewWithTag:201];
+            UITextField *textfield1 = (UITextField *)[cell viewWithTag:101];
             textfield1.placeholder = @"rotate.aprs2.net";
         }
         
