@@ -344,10 +344,10 @@
         }
         
         if ([indexPath row] == 0) {
-            UILabel *label1 = (UILabel *)[cell viewWithTag:100];
+            UILabel *label1 = (UILabel *)[cell viewWithTag:200];
             label1.text = @"APRS Host";
             
-            UITextField *textfield1 = (UITextField *)[cell viewWithTag:101];
+            UITextField *textfield1 = (UITextField *)[cell viewWithTag:201];
             textfield1.placeholder = @"rotate.aprs2.net";
         }
         
